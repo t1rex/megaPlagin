@@ -1,0 +1,277 @@
+/*------------------general----------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*div{*/
+/*outline: 1px solid #000000;*/
+/*}*/
+
+#wrapper {
+    width: 900px;
+    height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    width: 100%;
+    height: 210px;
+    background: url("../img/header_bg.jpg") -20px 0;
+    color: #a9bdd4;
+    font-size: 8px;
+}
+
+#sidebar {
+    height: 100%;
+    width: 185px;
+    float: left;
+}
+
+#content{
+    width: 100%;
+    height: 586px;
+    float: right;
+}
+/*--------------------------header----------------------*/
+.phones{
+    height: 100px;
+    width: 100px;
+    float: right;
+    text-align: right;
+    padding-top: 30px;
+}
+
+.log-form{
+    height: 100px;
+    width: 100px;
+    float: left;
+    padding-top: 30px;
+}
+
+#login, #pass{
+    width: 50px;
+    border: 1px dotted #a9bdd4;
+    border-radius: 3px;
+}
+
+.login {
+    color: #0094d9;
+    border: none;
+    background: none;
+    text-decoration: underline;
+}
+.button-rss{
+    display: block;
+    position: absolute;
+    top: 175px;
+    height: 13px;
+    width: 13px;
+    cursor: pointer;
+    background-image: url("../img/rss_but.jpg");
+}
+
+.right-buttons{
+    width: 55px;
+    height: 15px;
+    display: block;
+    position: relative;
+    top: 175px;
+    left: 845px;
+    cursor: pointer;
+    background-image: url("../img/ikonki.jpg");
+}
+/*---------lang-menu-----------------*/
+.lang-menu-wrap{
+    position: relative;
+    top: 120px;
+    height: 75px;
+    width: 615px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 1px;
+}
+
+.lang-menu-wrap .left-erl{
+    float: left;
+    height: 100%;
+    width: 20px;
+}
+
+.lang-menu-wrap .right-erl{
+    height: 100%;
+    width: 20px;
+    float: left;
+    margin-left: 17px;
+}
+
+.lang-menu-wrap .lang-menu{
+    float: left;
+    height: 100%;
+    width: 572px;
+}
+
+.g-lang{
+    height:85%;
+    width: 83px;
+    float: left;
+}
+
+.lang-menu .g-lang .g-ufo div{
+    height: 43px;
+    float: left;
+}
+
+.lang-menu .g-lang .g-ufo a{
+    display: block;
+    position: relative;
+    top: 25px;
+    left: 10px;
+    height: 15px;
+    width: 70px;
+    text-decoration: none;
+    text-align: center;
+    color: #0094d9;
+    font-size: 10px;
+}
+
+.lang-menu  .first{
+    padding: 8px 0 0 16px;
+}
+.lang-menu  .second{
+    padding: 3px 0 0 10px;
+}
+.lang-menu  .third{
+    padding: 1px 0 0 5px;
+}
+.lang-menu  .fourth{
+    padding: 2px 0 0 16px;
+}
+.lang-menu  .fifth{
+    padding: 3px 0 0 10px;
+}
+.lang-menu  .sixth{
+    padding: 10px 0 0 7px;
+}
+
+.lang-menu-wrap .left-erl{
+    display: block;
+    position: relative;
+    top: 38px;
+    left: 3px;
+    width: 16px;
+    height: 15px;
+    background: url("../img/st_levo-copy.png") no-repeat;
+    cursor: pointer;
+}
+
+.lang-menu-wrap .right-erl{
+    display: block;
+    position: relative;
+    top: 38px;
+    left: 5px;
+    width: 16px;
+    height: 15px;
+    background: url("../img/st_pravo-copy.png") no-repeat;
+    cursor: pointer;
+}
+
+/*--------------------main menu-------------------------------*/
+ul.menu{
+    margin-left: 0;
+    text-align: justify;
+}
+
+ul.menu li{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    height: 100%;
+}
+
+ul li.helper {
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+}
+
+ul.menu li a {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    color: #0094d9;
+    vertical-align: middle;
+}
+
+/*-------------------content-----------------------------*/
+.sidebar {
+    height: 530px;
+    width: 20%;
+    float: left;
+}
+
+.main-content{
+    float: left;
+    width: 60%;
+    height: 530px;
+}
+
+.right-content{
+    height: 530px;
+    width: 20%;
+    float: right;
+    text-align: right;
+}
+
+.content-line{
+    width: 100%;
+    height: 28px;
+    background: url("../img/content_line_bg.jpg");
+}
+
+.bottom-line{
+    clear: both;
+}
+
+.sidebar-menu{
+    list-style: none;
+    margin-left: 10px;
+}
+
+.sidebar-menu li{
+    margin: 2px 0;
+}
+
+.sidebar-menu li a{
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    color: #0094d9;
+}
+
+.g-content-block{
+    height: 61px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.g-content-logo{
+    height: 61px;
+    width: 61px;
+    float: left;
+}
+
+.main-content .g-content-block p.date{
+    color: #a9bdd4;
+    font-size: 8px;
+}
+
+.main-content .g-content-block p{
+    font-size: 10px;
+    color: #4d8ed5;
+}
+
+.main-content .g-content-block h2{
+    color: #0094d9;
+}

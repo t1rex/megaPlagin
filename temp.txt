@@ -1,0 +1,114 @@
+
+    //$('.left-erl').click(function(){
+    //    var temp;
+    //    temp = $('.lang-menu div:nth-child(1) .g-ufo div');
+    //    for(var i =1; i<=6; i++){
+    //        $('.lang-menu div:nth-child('+i+') .g-ufo').empty().append($('.lang-menu div:nth-child('+(i+1)+') .g-ufo div'));
+    //
+    //    }
+    //    $('.lang-menu div:nth-child(6) .g-ufo').append(temp);
+    //});
+    //
+    //$('.right-erl').click(function(){
+    //    var temp;
+    //    temp = $('.lang-menu div:nth-child(6) .g-ufo div');
+    //    for(var i =6; i>=1; i--){
+    //        $('.lang-menu div:nth-child('+i+') .g-ufo').empty().append($('.lang-menu div:nth-child('+(i-1)+') .g-ufo div'));
+    //    }
+    //    $('.lang-menu div:nth-child(1) .g-ufo').append(temp);
+    //});
+
+
+//    $('.left-erl').click(function(){
+//        for(var i=1; i<=countMoveElement; i++){
+//            var index;
+//            index = getLeftIndex(i);
+//            if (i>2){
+//                $('.'+defaultClassName + i).animate({'margin-top': '-='+(index*4)+'px'}, speedOfAnimation);
+//            }else{
+//                if(i==2){
+//                    $('.'+defaultClassName + i).animate({'margin-left':'-=44px', 'margin-top': '-='+(index*4)+'px'}, speedOfAnimation);
+//                }else {
+//                    var cloneOfFirstFlag = $('.'+defaultClassName + i).clone(),
+//                        originalFirstFlag = $('.'+defaultClassName + i);
+//                    cloneOfFirstFlag.appendTo('.lang-menu').css('margin-left', '+=200px').animate({'margin-left': '-=156px'}, speedOfAnimation);
+//                    originalFirstFlag.animate({'margin-left': '-=300'}, {
+//                        duration: speedOfAnimation  *2, complete: function () {
+//                            originalFirstFlag.remove();
+//                        }
+//                    });
+//                }
+//            }
+//        }
+//        shiftClassesLeft();
+//})
+//    $('.right-erl').click(function(){
+//        for(var i=countMoveElement; i>=1; i--){
+//            var index;
+//            index=getRightIndex(i);
+//            if (i==countMoveElement){
+//                var cloneOfLastFlag = $('.'+defaultClassName + i).clone(),
+//                    originalLastFlag = $('.'+defaultClassName + i);
+//                cloneOfLastFlag.prependTo('.lang-menu').css('margin-left', '-=200px').animate({'margin-left': '+=156px'}, speedOfAnimation);
+//                originalLastFlag.animate({'margin-left': '+=200'}, {
+//                    duration: speedOfAnimation, complete: function () {
+//                        originalLastFlag.remove();
+//                    }
+//                });
+//            }else{
+//                if(i==1){
+//                    $('.'+defaultClassName + i).animate({'margin-left':'+=44px', 'margin-top': '-='+(index*4)+'px'}, speedOfAnimation);
+//                }else {
+//                    $('.'+defaultClassName + i).animate({'margin-top': '-='+(index*4)+'px'}, speedOfAnimation);
+//                }
+//            }
+//        }
+//        shiftClassesRight();
+//
+//    })
+//    function getLeftIndex(i){
+//        if((i==1)||(i==4)){
+//            return 0;
+//        }else{
+//            if(i>4){
+//                return 1;
+//            }else{
+//                return -1;
+//            }
+//        }
+//    }
+//    function getRightIndex(i){
+//        if((i==1)||(i==2)){
+//            return 1;
+//        }else{
+//            if((i==4)||(i==5)){
+//                return -1;
+//            }else{
+//                return 0;
+//            }
+//        }
+//    }
+//    function shiftClassesLeft(){
+//        for (i=1; i<=countMoveElement; i++){ //змщення класів рухомих обєктів по колу
+//            $('.'+defaultClassName+i).addClass('temp'+i);
+//        }
+//        for (i=1; i<=countMoveElement; i++){
+//            if(i==1){
+//                $('.temp'+i).addClass(defaultClassName+countMoveElement).removeClass('temp'+i).removeClass(defaultClassName+i);
+//            }else {
+//                $('.temp' + i).addClass(defaultClassName +(i-1)).removeClass('temp'+i).removeClass(defaultClassName+i);
+//            }
+//        }
+//    }
+//    function shiftClassesRight(){
+//        for (i=1; i<=countMoveElement; i++){ //змщення класів рухомих обєктів по колу
+//            $('.'+defaultClassName+i).addClass('temp'+i);
+//        }
+//        for (i=1; i<=countMoveElement; i++){
+//            if(i==countMoveElement){
+//                $('.temp'+i).addClass(defaultClassName+'1').removeClass('temp'+i).removeClass(defaultClassName+i);
+//            }else {
+//                $('.temp' + i).addClass(defaultClassName +(i+1)).removeClass('temp'+i).removeClass(defaultClassName+i);
+//            }
+//        }
+//    }

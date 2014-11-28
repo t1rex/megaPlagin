@@ -1,0 +1,56 @@
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-d_flag {
+    width: 30px;
+    height: 43px;
+    background-position: -5px -5px;
+}
+
+.sprite-en_flag {
+    width: 31px;
+    height: 43px;
+    background-position: -45px -5px;
+}
+
+.sprite-f_flag {
+    width: 31px;
+    height: 43px;
+    background-position: -5px -58px;
+}
+
+.sprite-h_flag {
+    width: 30px;
+    height: 43px;
+    background-position: -46px -58px;
+}
+
+.sprite-italy_flag {
+    width: 31px;
+    height: 43px;
+    background-position: -86px -5px;
+}
+
+.sprite-spain_flag {
+    width: 31px;
+    height: 43px;
+    background-position: -86px -58px;
+}
+
+
+
+/*.sprite1 {display: block; background: transparent url('../img/for_frames.png') no-repeat; text-indent: -10000px; }*/
+.sprite1 {
+    background-image: url(../img/for_frames.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+.act1 { background-position: 0 0; width: 14px; height: 13px}
+.ico1 { background-position: -47px 0; width: 14px; height: 13px}
+.act2 { background-position: -16px 0; width: 13px; height: 12px}
+.ico2 { background-position: -63px 0; width: 13px; height: 12px}
+.act3 { background-position: -31px 0; width: 14px; height: 13px}
+.ico3 { background-position: -78px 0; width: 14px; height: 13px}
