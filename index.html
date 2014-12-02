@@ -8,7 +8,6 @@
     <link rel="stylesheet" type="text/css" href="css/sprite.css">
     <link rel="stylesheet" type="text/css" href="css/gradients.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script src="scripts/circle.js"></script>
     <script src="scripts/jquery.flagsAnimate.js"></script>
     <!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>-->
     <!--<script type="text/javascript" src="jQuery.roundrr.js"></script>-->
@@ -112,7 +111,7 @@
             <!--</div>-->
             <!--==============================lang-menu v 2===============================-->
             <div class="lang-menu-wrap">
-                <div class="left-erl left-scroll">
+                <div class="left-erl left-scroll left">
                     <a href="#"></a>
                 </div>
                 <div class="lang-menu">
@@ -135,10 +134,21 @@
                         <a href="#" class="gradient-lang">Голанский</a>
                     </div>
                 </div>
-                <div class="right-erl right-scroll">
+                <div class="right-erl right-scroll right">
                     <a href="#"></a>
                 </div>
             </div>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $('.lang-menu-wrap').slider({
+                        duration: 500,
+                        slidesContainer: '.lang-menu',
+                        navLeftCssSelector: '.left',
+                        navRightCssSelector: '.right',
+                        outsideMargin: 150
+                    });
+                });
+            </script>
             <!--==================end lang menu======================-->
         </div>
         <ul class="menu">
@@ -235,6 +245,7 @@
         <a href="#" class="map sprite1"></a>
     </div>
 
+    <!--=====================================test=slider=============================-->
     <div class="for-example-wrapper" style="margin: 100px">
         <div>
             <button class="go-left">Left</button>
@@ -265,10 +276,17 @@
             </div>
         </div>
     </div>
-
-
-
-
     </div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.for-example-wrapper').slider({
+                duration: 700,
+                slidesContainer: '.carousel-for-example',
+                navLeftCssSelector: '.go-left',
+                navRightCssSelector: '.go-right'
+            });
+        });
+    </script>
+<!--=================================end=of=test=slider=================================-->
 </body>
 </html>

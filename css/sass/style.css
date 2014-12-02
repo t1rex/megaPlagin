@@ -271,7 +271,7 @@ ul.menu li a {
     margin-left: 10px;
     width: 40px; }
   .for-example-wrapper div.carousel-for-example {
-    height: 50px;
+    height: 500px;
     width: 572px;
     overflow: hidden; }
     .for-example-wrapper div.carousel-for-example div {
@@ -283,18 +283,18 @@ ul.menu li a {
       margin: 28px 0 0 16px;
       width: 20px; }
     .for-example-wrapper div.carousel-for-example .block1 {
-      margin: 28px 0 0 10; }
+      margin: 150px 0 0 10; }
     .for-example-wrapper div.carousel-for-example .block2 {
-      margin: 20px 0 0 42px; }
+      margin: 90px 0 0 42px; }
     .for-example-wrapper div.carousel-for-example .block3 {
-      margin: 12px 0 0 42px; }
+      margin: 240px 0 0 42px; }
     .for-example-wrapper div.carousel-for-example .block4 {
-      margin: 4px 0 0 42px; }
+      margin: 400px 0 0 42px; }
     .for-example-wrapper div.carousel-for-example .block5 {
-      margin: 12px 0 0 42px; }
-    .for-example-wrapper div.carousel-for-example .block6 {
       margin: 20px 0 0 42px; }
+    .for-example-wrapper div.carousel-for-example .block6 {
+      margin: 205px 0 0 42px; }
     .for-example-wrapper div.carousel-for-example .block7 {
-      margin: 28px 0 0 42px; }
+      margin: 280px 0 0 42px; }
 
 /*# sourceMappingURL=style.css.map */
